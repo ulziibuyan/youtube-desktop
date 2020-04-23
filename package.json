@@ -6,7 +6,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/devmarcy/youtube-desktop.git"
-},
+  },
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
@@ -15,12 +15,12 @@
     "linux": "electron-packager . --overwrite --platform=linux  --icon=./icon/youtube.icns --prune=true --out=./dist "
   },
   "devDependencies": {
-    "electron": "^6.0.4"
+    "electron": "^8.2.3"
   },
   "dependencies": {
-    "@cliqz/adblocker-electron": "^1.0.2",
+    "@cliqz/adblocker-electron": "^1.14.2",
     "cross-fetch": "^3.0.4",
-    "electron-packager": "^14.0.4",
-    "electron-rebuild": "^1.8.6"
+    "electron-packager": "^14.2.1",
+    "electron-rebuild": "^1.10.1"
   }
 }
