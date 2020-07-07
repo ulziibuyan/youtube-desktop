@@ -15,7 +15,7 @@
     "linux": "electron-packager . --overwrite --platform=linux  --icon=./icon/youtube.icns --prune=true --out=./dist "
   },
   "devDependencies": {
-    "electron": "^8.2.3"
+    "electron": "^8.2.4"
   },
   "dependencies": {
     "@cliqz/adblocker-electron": "^1.14.2",
